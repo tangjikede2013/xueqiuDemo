@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import pages.LoginPage;
 import pages.MainPage;
@@ -25,17 +26,14 @@ public class SearchTest {
     }
 
     @ParameterizedTest
-    @CsvSource({
-            "pdd, 拼多多",
-            "alibaba, 阿里巴巴",
-            "sogo, 搜狗"
-    })
+    @CsvFileSource(resources = "/data/search.csv")
     void searchTest(String keyword, String name){
         String content=searchPage.search(keyword).getAll().get(0);
         assertThat(content, equalTo(name));
     }
 
-    @Test
+    @ParameterizedTest
+    @CsvFileSource(resources = "/data/search.csv")
     void selectTest(){
         ArrayList<String> array=searchPage.search("mi").addSelected();
         for(String s:array) {

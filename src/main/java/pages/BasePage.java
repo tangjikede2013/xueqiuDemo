@@ -10,8 +10,12 @@ public class BasePage {
         try{
             return Driver.getCurrentDriver().findElement(locator);
         }catch (Exception e){
-            Driver.getCurrentDriver().findElement(text("下次再说")).click();
-            return Driver.getCurrentDriver().findElement(locator);
+            System.out.println("no fund");
+            e.printStackTrace();
+            try {
+                Driver.getCurrentDriver().findElement(text("下次再说")).click();
+                return Driver.getCurrentDriver().findElement(locator);
+            }catch (Exception e1){return  null;}
         }
     }
 

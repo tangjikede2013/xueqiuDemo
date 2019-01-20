@@ -2,6 +2,7 @@ package pages;
 
 import driver.Driver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class MainPage extends BasePage {
 
@@ -24,7 +25,21 @@ public class MainPage extends BasePage {
     }
 
     public MySelectPage gotoMySelect(){
-        find(By.xpath("//*[@text='自选']")).click();
+        WebElement ele=find(By.xpath("//*[@text='自选']"));
+        int num=0;
+        while (num<10) {
+            WebElement ele2=find(By.xpath("//*[@text='自选']"));
+            if (ele!=null&&ele2!=null) {
+                if (ele.getLocation().toString().equals(ele2.getLocation().toString()))break;
+            }
+            else {
+//                System.out.println(ele.getLocation());
+//                System.out.println(ele2.getLocation());
+                num++;
+                ele=ele2;
+            }
+        }
+        ele.click();
         return new MySelectPage();
     }
 }
