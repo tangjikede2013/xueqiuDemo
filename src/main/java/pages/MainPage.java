@@ -22,4 +22,9 @@ public class MainPage extends BasePage {
         find(By.id("home_search")).click();
         return new SearchPage();
     }
+
+    public MySelectPage gotoMySelect(){
+        find(By.xpath("//*[@text='自选']")).click();
+        return new MySelectPage();
+    }
 }

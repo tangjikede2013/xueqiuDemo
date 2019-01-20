@@ -23,6 +23,7 @@ public class SearchTest {
         mainPage=MainPage.start();
         searchPage=mainPage.gotoSearch();
     }
+
     @ParameterizedTest
     @CsvSource({
             "pdd, 拼多多",
@@ -41,6 +42,12 @@ public class SearchTest {
             System.out.println(s);
         }
         assertThat(array, hasItems("com.xueqiu.android:id/followed_btn", "com.xueqiu.android:id/follow_btn"));
+    }
 
+
+    @Test
+    void removeTest(){
+        boolean result=searchPage.search("mi").removeSelected();
+        assertThat(result, equalTo(true));
     }
 }

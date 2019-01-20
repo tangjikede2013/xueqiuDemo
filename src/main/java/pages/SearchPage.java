@@ -44,9 +44,9 @@ public class SearchPage extends BasePage{
 
     }
 
-    public SearchPage removeSelected(){
+    public boolean removeSelected(){
         AndroidElement select=(AndroidElement) find(By.xpath("//*[contains(@resource-id, 'follow') and contains(@resource-id, '_btn')]"));
         select.click();
-        return this;
+        return true;
     }
 }
