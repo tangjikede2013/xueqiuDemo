@@ -33,9 +33,9 @@ public class SearchTest {
     }
 
     @ParameterizedTest
-    @CsvFileSource(resources = "/data/search.csv")
-    void selectTest(){
-        ArrayList<String> array=searchPage.search("mi").addSelected();
+    @CsvFileSource(resources = "/data/select.csv")
+    void selectTest(String key){
+        ArrayList<String> array=searchPage.search(key).addSelected();
         for(String s:array) {
             System.out.println(s);
         }

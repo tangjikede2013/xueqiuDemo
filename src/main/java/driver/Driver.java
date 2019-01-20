@@ -35,7 +35,7 @@ public class Driver {
         }
 
         driver = new AndroidDriver(remoteUrl, desiredCapabilities);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(config.appium.wait, TimeUnit.SECONDS);
     }
 
     public static AndroidDriver<AndroidElement> getCurrentDriver(){

@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d350ca-2dd2-49bc-af20-5bded331c91c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/AppiumConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/GlobalConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/globalConfig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/search.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/select.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="169">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +28,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/select.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MySelectPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="292">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="356">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySelectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="135">
+              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,20 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/driver/GlobalConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="292">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +111,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driver/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,15 +156,15 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/MySelectPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MySelectTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/search.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/select.csv" />
         <option value="$PROJECT_DIR$/src/main/resources/data/globalConfig.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/driver/AppiumConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/driver/GlobalConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driver/Driver.java" />
       </list>
     </option>
   </component>
@@ -280,7 +276,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547963326441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547964504331" />
     <property name="last_opened_file_path" value="G:/Github/AppiumTesting7" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -296,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MySelectTest.addMySelectTest">
+  <component name="RunManager" selected="JUnit.SearchTest.selectTest (1)">
     <configuration name="MySelectTest.addMySelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appiumDemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -337,11 +333,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.selectTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appiumDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SearchTest" />
-      <option name="METHOD_NAME" value="selectTest" />
+      <option name="METHOD_NAME" value="selectTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -349,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchTest.selectTest (1)" />
         <item itemvalue="JUnit.MySelectTest.addMySelectTest" />
         <item itemvalue="JUnit.SearchTest.searchTest" />
         <item itemvalue="JUnit.MySelectTest.removeSelectTest" />
         <item itemvalue="JUnit.SearchTest.removeTest" />
-        <item itemvalue="JUnit.SearchTest.selectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -371,15 +367,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySelectTest_addMySelectTest - 2019.01.20 at 10h 04m 34s.xml">
-      <configuration name="MySelectTest.addMySelectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySelectTest_addMySelectTest - 2019.01.20 at 10h 22m 16s.xml">
-      <configuration name="MySelectTest.addMySelectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySelectTest_removeSelectTest - 2019.01.20 at 10h 23m 30s.xml">
-      <configuration name="MySelectTest.removeSelectTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchTest_searchTest - 2019.01.20 at 11h 51m 08s.xml">
       <configuration name="SearchTest.searchTest" configurationId="JUnit" />
     </history-entry>
@@ -400,6 +387,15 @@
     </history-entry>
     <history-entry file="MySelectTest_addMySelectTest - 2019.01.20 at 13h 40m 07s.xml">
       <configuration name="MySelectTest.addMySelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MySelectTest_addMySelectTest - 2019.01.20 at 13h 46m 18s.xml">
+      <configuration name="MySelectTest.addMySelectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_selectTest_(1) - 2019.01.20 at 14h 05m 25s.xml">
+      <configuration name="SearchTest.selectTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTest_selectTest_(1) - 2019.01.20 at 14h 07m 11s.xml">
+      <configuration name="SearchTest.selectTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -467,7 +463,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pages/MainPage.java</url>
-          <line>32</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -479,7 +475,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pages/MainPage.java</url>
-          <line>38</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -567,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/select.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/globalConfig.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -595,18 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="903" column="18" selection-start-line="903" selection-start-column="18" selection-end-line="903" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,16 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -658,30 +625,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MySelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="52" />
+        <state relative-caret-position="289">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -690,18 +647,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MySelectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="292">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="292">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySelectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/select.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
